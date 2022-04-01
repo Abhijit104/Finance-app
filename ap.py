@@ -10,7 +10,7 @@ import seaborn as sns
 
 # get_data(ticker, start_date = None, end_date = None, index_as_date = True, interval = “1d”)
 
-START = "2015-01-01"
+START = "2021-01-01"
 TODAY=date.today().strftime("%Y-%m-%d")
 
 st.title('Stock Trend Prediction')
